@@ -1,0 +1,64 @@
+.scelet {
+    width: 210px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 40px;
+    padding: 36px 30px 37px 29px;
+    box-sizing: border-box;
+    animation: scelet 1s alternate linear infinite;
+
+    &__icon {
+        width: 150px;
+        height: 91px;
+        background: #F2F2F2;
+        border-radius: 10px;
+    }
+
+    &__title {
+        margin: 14px 0;
+        width: 150px;
+        height: 15px;
+        background: #F2F2F2;
+        border-radius: 3px;
+    }
+
+    &__title2 {
+        margin: 14px 0;
+        width: 93px;
+        height: 15px;
+        background: #F2F2F2;
+        border-radius: 3px;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__addeds {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        background: #F2F2F2;
+        border-radius: 8px;
+    }
+
+    &__price {
+        width: 80px;
+        height: 24px;
+        background: #F2F2F2;
+        border-radius: 8px;
+    }
+}
+@keyframes scelet {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}

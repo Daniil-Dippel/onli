@@ -1,0 +1,33 @@
+.header {
+    &__content {
+        @include flex(space-between, center, wrap);
+    }
+
+    &__icon,
+    &__icons {
+        display: flex;
+    }
+
+    &__icon span {
+        @include font(600, 14px, #5C5C5C);
+        margin-left: 10px;
+        width: 89px;
+        cursor: pointer;
+
+    }
+
+    &__icon img {
+        cursor: pointer;
+    }
+
+    &__icon a {
+        margin-right: 5px;
+        transition: 0.8s;
+    }
+}
+
+.fav__price {
+    margin-right: 5px;
+    width: 1px;
+    @include font(600, 14px, #5C5C5C);
+}
